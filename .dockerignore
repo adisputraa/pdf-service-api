@@ -1,0 +1,18 @@
+# Abaikan semua yang diabaikan oleh Git
+.git
+.gitignore
+
+# Abaikan dependensi lokal, akan diinstal di dalam container
+node_modules
+
+# Abaikan hasil build lokal, akan dibuat di dalam container
+dist
+
+# Abaikan environment variables
+.env
+
+# Abaikan file log
+npm-debug.log*
+
+# Abaikan file konfigurasi Docker itu sendiri
+Dockerfile
